@@ -41,7 +41,7 @@ async function deployProgram(program) {
 
   // Use existing account with funds
   const account = new Account({
-    privateKey: "APrivateKey<XXXXXXXXXXX>",
+    privateKey: "APrivateKey<XXXXXXXXXXXXXXX>",
   });
 
   const recordProvider = new NetworkRecordProvider(account, networkClient);
